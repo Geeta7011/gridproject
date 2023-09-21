@@ -1,0 +1,169 @@
+.head{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+.box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    cursor: pointer;
+    width: 350px;
+    height: 20rem;
+
+    
+}
+.container2{
+    display: flex;
+    margin-left: 10rem;
+    column-gap: 15px;
+}
+.box:hover{
+    transform: scale(1.05);
+    scroll-behavior: smooth;
+
+}
+.container{
+    /* margin-left: 10rem; */
+    display: grid;
+    gap: 15px;
+    row-gap: 15px;
+    background-image: linear-gradient(
+    to right,
+    #051937,
+    #002768,
+    #273199,
+    #5f30c6,
+    #9f12eb
+  );
+}
+
+.box h3 {
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+  
+.box p {
+    color: #777;
+    font-size: 15px;
+}
+.box-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 15px;
+}
+img{
+    height: 80px;
+    margin-left: 50px;
+}
+h3{
+    margin-left: 50px;
+}
+p{
+    margin-left: 30px;
+}
+.box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+}
+.box2{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    cursor: pointer;
+    width: 350px;
+    height: 20rem;
+
+    
+}
+.box2 h3 {
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.box2 .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+}
+.boxsec{
+    display: flex;
+    margin-left: 10rem;
+    column-gap: 15px;
+}
+.box2:hover{
+
+    transform: scale(1.05);
+    /* scroll-behavior: smooth; */
+
+}
+
+
+@media (max-width: 769px) {
+    
+}
+
+
+@media (max-width: 481px) and (max-width: 768px) {
+
+    html{
+        font-size: 10px;
+    }
+    .container2,
+    .boxsec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2rem;
+        padding: 15px 25px 80px 25px;
+    }
+    
+    .box,
+    .box2 {
+        width: 60%;
+        margin-bottom: 10px;
+        padding: 20px 10px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .container2,
+    .boxsec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2rem;
+        padding: 10px 30px 50px 30px;
+        grid-template-columns: 1fr;
+    }
+    
+    .box,
+    .box2 {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 10px;
+    }
+    html{
+        font-size: 10px;
+    }
+}
+
